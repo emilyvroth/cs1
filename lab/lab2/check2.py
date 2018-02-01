@@ -1,0 +1,1 @@
+print("*"*10,"** "+input("Enter a four letter word: ")+" **","*"*10, sep="\n")

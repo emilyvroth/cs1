@@ -1,0 +1,1077 @@
+1Input file => test6.txt
+2All universes
+3----------------------------------------
+4Universe: phoneCS1 (3 rewards and 3 portals)
+5Rewards:
+6at (761,400) for 10 points: ability to write programs in reverse
+7at (56,864) for 40 points: submitty supermatch: submitty apologizes for not matching your output
+8at (184,710) for 20 points: everything you say is suddenly a Python program
+9Portals:
+10phoneCS1: (788,360) -> chairCS1: (200,10)
+11phoneCS1: (761,400) -> phoneCS1: (400,200)
+12phoneCS1: (28,910) -> pizzaCS1: (335,828)
+13
+14
+15Universe: pizzaCS1 (3 rewards and 4 portals)
+16Rewards:
+17at (569,573) for 10 points: improving programming ability by watching netflix
+18at (290,892) for 40 points: brain dump of stackoverflow
+19at (30,242) for 8 points: recursion vortex: ability to solve all homeworks using recursion
+20Portals:
+21pizzaCS1: (194,350) -> phoneCS1: (800,400)
+22pizzaCS1: (533,85) -> chairCS1: (300,200)
+23pizzaCS1: (578,593) -> phoneCS1: (225,625)
+24pizzaCS1: (240,920) -> chairCS1: (900,40)
+25
+26
+27Universe: rickandmortyCS1 (5 rewards and 3 portals)
+28Rewards:
+29at (280,262) for 10 points: Prof. Turner's beard
+30at (911,114) for 40 points: Prof. Adali's accent
+31at (636,378) for 50 points: box that summons a TA for help
+32at (184,710) for 20 points: ability to converse with bird person
+33at (300,300) for 100 points: achievement unlocked: ready for data structures
+34Portals:
+35rickandmortyCS1: (500,500) -> rickandmortyCS1: (450,450)
+36rickandmortyCS1: (115,75) -> rickandmortyCS1: (736,498)
+37rickandmortyCS1: (298,113) -> chairCS1: (450,460)
+38
+39
+40Universe: chairCS1 (4 rewards and 2 portals)
+41Rewards:
+42at (152,446) for 10 points: ability to match any submitty output
+43at (42,572) for 20 points: your program becomes a test case for all other programs
+44at (94,94) for 20 points: ability to turn back time for 1 day
+45at (400,400) for 20 points: telepathic ability to guess exam questions
+46Portals:
+47chairCS1: (851,836) -> pizzaCS1: (20,230)
+48chairCS1: (980,223) -> phoneCS1: (100,800)
+49
+50
+51All individuals
+52----------------------------------------
+53tammy of pizzaCS1 in universe pizzaCS1
+54    at (115.0,547.0) speed (11.0,-15.0) with 0 rewards and 0 points
+55gazorpazorpfield of pizzaCS1 in universe pizzaCS1
+56    at (150.0,161.0) speed (12.0,12.0) with 0 rewards and 0 points
+57piece of toast of pizzaCS1 in universe pizzaCS1
+58    at (842.0,996.0) speed (-14.0,-13.0) with 0 rewards and 0 points
+59squanchy of pizzaCS1 in universe pizzaCS1
+60    at (875.0,320.0) speed (-12.0,11.0) with 0 rewards and 0 points
+61jaguar of chairCS1 in universe chairCS1
+62    at (328.0,880.0) speed (22.0,-22.0) with 0 rewards and 0 points
+63supernove of chairCS1 in universe chairCS1
+64    at (256.0,359.0) speed (14.0,12.0) with 0 rewards and 0 points
+65zeep xanflorp of chairCS1 in universe chairCS1
+66    at (673.0,952.0) speed (-13.0,-13.0) with 0 rewards and 0 points
+67unity of chairCS1 in universe chairCS1
+68    at (20.0,600.0) speed (12.0,-12.0) with 0 rewards and 0 points
+69logic of chairCS1 in universe chairCS1
+70    at (410.0,1002.0) speed (11.0,20.0) with 0 rewards and 0 points
+71jerry of phoneCS1 in universe phoneCS1
+72    at (620.0,702.0) speed (-14.0,-18.0) with 0 rewards and 0 points
+73birdperson of phoneCS1 in universe phoneCS1
+74    at (761.0,400.0) speed (-19.0,-9.0) with 0 rewards and 0 points
+75ethan of phoneCS1 in universe phoneCS1
+76    at (788.0,360.0) speed (-18.0,12.0) with 0 rewards and 0 points
+77mr. meeseeks of phoneCS1 in universe phoneCS1
+78    at (904.0,70.0) speed (-18.0,16.0) with 0 rewards and 0 points
+79rick of rickandmortyCS1 in universe rickandmortyCS1
+80    at (400.0,390.0) speed (-20.0,-18.0) with 0 rewards and 0 points
+81morty of rickandmortyCS1 in universe rickandmortyCS1
+82    at (413.0,130.0) speed (-20.0,12.0) with 0 rewards and 0 points
+83summer of rickandmortyCS1 in universe rickandmortyCS1
+84    at (124.0,180.0) speed (22.0,15.0) with 0 rewards and 0 points
+85beth of rickandmortyCS1 in universe rickandmortyCS1
+86    at (950.0,950.0) speed (-15.0,-15.0) with 0 rewards and 0 points
+87
+88Start simulation
+89----------------------------------------
+90logic stopped at simulation step 0 at location (410.0,1002.0)
+91
+92birdperson stopped at simulation step 0 at location (761.0,400.0)
+93
+94birdperson picked up "ability to write programs in reverse" at simulation step 1
+95birdperson of phoneCS1 in universe phoneCS1
+96    at (761.0,400.0) speed (0.0,0.0) with 1 rewards and 10 points
+97
+98birdperson and ethan crashed at simulation step 1 in universe phoneCS1
+99birdperson dropped "ability to write programs in reverse", reward returned to phoneCS1 at (761,400)
+100birdperson of phoneCS1 in universe phoneCS1
+101    at (761.0,400.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+102ethan of phoneCS1 in universe phoneCS1
+103    at (770.0,372.0) speed (-18.0,12.0) with 0 rewards and 0 points
+104
+105birdperson passed through a portal at simulation step 1
+106birdperson of phoneCS1 in universe phoneCS1
+107    at (400.0,200.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+108
+109ethan passed through a portal at simulation step 1
+110ethan of phoneCS1 in universe chairCS1
+111    at (200.0,10.0) speed (-18.0,12.0) with 0 rewards and 0 points
+112
+113unity picked up "your program becomes a test case for all other programs" at simulation step 2
+114unity of chairCS1 in universe chairCS1
+115    at (44.0,576.0) speed (10.0,-12.0) with 1 rewards and 20 points
+116
+117rick picked up "achievement unlocked: ready for data structures" at simulation step 5
+118rick of rickandmortyCS1 in universe rickandmortyCS1
+119    at (300.0,300.0) speed (-16.7,-18.0) with 1 rewards and 100 points
+120
+121ethan picked up "ability to turn back time for 1 day" at simulation step 6
+122ethan of phoneCS1 in universe chairCS1
+123    at (110.0,70.0) speed (-15.0,12.0) with 1 rewards and 20 points
+124
+125rick picked up "Prof. Turner's beard" at simulation step 6
+126rick of rickandmortyCS1 in universe rickandmortyCS1
+127    at (283.3,282.0) speed (-16.7,-12.0) with 2 rewards and 110 points
+128
+129rick and summer crashed at simulation step 7 in universe rickandmortyCS1
+130rick dropped "achievement unlocked: ready for data structures", reward returned to rickandmortyCS1 at (300,300)
+131rick of rickandmortyCS1 in universe rickandmortyCS1
+132    at (266.7,270.0) speed (19.4,12.0) with 1 rewards and 10 points
+133summer of rickandmortyCS1 in universe rickandmortyCS1
+134    at (278.0,285.0) speed (22.0,15.0) with 0 rewards and 0 points
+135
+136summer picked up "achievement unlocked: ready for data structures" at simulation step 8
+137summer of rickandmortyCS1 in universe rickandmortyCS1
+138    at (300.0,300.0) speed (18.3,15.0) with 1 rewards and 100 points
+139
+140rick and summer crashed at simulation step 8 in universe rickandmortyCS1
+141rick dropped "Prof. Turner's beard", reward returned to rickandmortyCS1 at (280,262)
+142summer dropped "achievement unlocked: ready for data structures", reward returned to rickandmortyCS1 at (300,300)
+143rick of rickandmortyCS1 in universe rickandmortyCS1
+144    at (286.1,282.0) speed (-19.4,-12.0) with 0 rewards and 0 points
+145summer of rickandmortyCS1 in universe rickandmortyCS1
+146    at (300.0,300.0) speed (-18.3,-15.0) with 0 rewards and 0 points
+147
+148rick picked up "Prof. Turner's beard" at simulation step 9
+149rick of rickandmortyCS1 in universe rickandmortyCS1
+150    at (266.7,270.0) speed (-16.2,-12.0) with 1 rewards and 10 points
+151
+152rick and summer crashed at simulation step 9 in universe rickandmortyCS1
+153rick dropped "Prof. Turner's beard", reward returned to rickandmortyCS1 at (280,262)
+154rick of rickandmortyCS1 in universe rickandmortyCS1
+155    at (266.7,270.0) speed (16.2,12.0) with 0 rewards and 0 points
+156summer of rickandmortyCS1 in universe rickandmortyCS1
+157    at (281.7,285.0) speed (-18.3,-15.0) with 0 rewards and 0 points
+158
+159rick picked up "Prof. Turner's beard" at simulation step 10
+160rick of rickandmortyCS1 in universe rickandmortyCS1
+161    at (282.9,282.0) speed (13.5,12.0) with 1 rewards and 10 points
+162
+163rick and summer crashed at simulation step 10 in universe rickandmortyCS1
+164rick dropped "Prof. Turner's beard", reward returned to rickandmortyCS1 at (280,262)
+165rick of rickandmortyCS1 in universe rickandmortyCS1
+166    at (282.9,282.0) speed (-13.5,-12.0) with 0 rewards and 0 points
+167summer of rickandmortyCS1 in universe rickandmortyCS1
+168    at (263.3,270.0) speed (-18.3,-15.0) with 0 rewards and 0 points
+169
+170rick picked up "Prof. Turner's beard" at simulation step 11
+171rick of rickandmortyCS1 in universe rickandmortyCS1
+172    at (269.4,270.0) speed (-11.3,-12.0) with 1 rewards and 10 points
+173
+174rick and summer crashed at simulation step 11 in universe rickandmortyCS1
+175rick dropped "Prof. Turner's beard", reward returned to rickandmortyCS1 at (280,262)
+176rick of rickandmortyCS1 in universe rickandmortyCS1
+177    at (269.4,270.0) speed (11.3,12.0) with 0 rewards and 0 points
+178summer of rickandmortyCS1 in universe rickandmortyCS1
+179    at (245.0,255.0) speed (-18.3,-15.0) with 0 rewards and 0 points
+180
+181rick picked up "Prof. Turner's beard" at simulation step 12
+182rick of rickandmortyCS1 in universe rickandmortyCS1
+183    at (280.6,282.0) speed (9.4,12.0) with 1 rewards and 10 points
+184
+185rick stopped at simulation step 12 at location (280.6,282.0)
+186
+187unity picked up "ability to match any submitty output" at simulation step 13
+188unity of chairCS1 in universe chairCS1
+189    at (154.0,444.0) speed (10.0,-8.0) with 2 rewards and 30 points
+190
+191unity stopped at simulation step 13 at location (154.0,444.0)
+192
+193ethan stopped at simulation step 14 at location (-10.0,166.0)
+194
+195morty stopped at simulation step 21 at location (-7.0,382.0)
+196
+197squanchy passed through a portal at simulation step 24
+198squanchy of pizzaCS1 in universe phoneCS1
+199    at (225.0,625.0) speed (-12.0,11.0) with 0 rewards and 0 points
+200
+201summer stopped at simulation step 25 at location (-11.7,45.0)
+202
+203jaguar passed through a portal at simulation step 29
+204jaguar of chairCS1 in universe phoneCS1
+205    at (100.0,800.0) speed (22.0,-22.0) with 0 rewards and 0 points
+206
+207beth passed through a portal at simulation step 29
+208beth of rickandmortyCS1 in universe rickandmortyCS1
+209    at (450.0,450.0) speed (-15.0,-15.0) with 0 rewards and 0 points
+210
+211jaguar picked up "everything you say is suddenly a Python program" at simulation step 32
+212jaguar of chairCS1 in universe phoneCS1
+213    at (166.0,734.0) speed (18.3,-22.0) with 1 rewards and 20 points
+214
+215squanchy and jaguar crashed at simulation step 32 in universe phoneCS1
+216jaguar dropped "everything you say is suddenly a Python program", reward returned to phoneCS1 at (184,710)
+217squanchy of pizzaCS1 in universe phoneCS1
+218    at (129.0,713.0) speed (-12.0,11.0) with 0 rewards and 0 points
+219jaguar of chairCS1 in universe phoneCS1
+220    at (166.0,734.0) speed (-18.3,22.0) with 0 rewards and 0 points
+221
+222squanchy and jaguar crashed at simulation step 33 in universe phoneCS1
+223squanchy of pizzaCS1 in universe phoneCS1
+224    at (117.0,724.0) speed (-12.0,11.0) with 0 rewards and 0 points
+225jaguar of chairCS1 in universe phoneCS1
+226    at (147.7,756.0) speed (-18.3,22.0) with 0 rewards and 0 points
+227
+228gazorpazorpfield picked up "improving programming ability by watching netflix" at simulation step 34
+229gazorpazorpfield of pizzaCS1 in universe pizzaCS1
+230    at (558.0,569.0) speed (10.0,12.0) with 1 rewards and 10 points
+231
+232squanchy and jaguar crashed at simulation step 34 in universe phoneCS1
+233squanchy of pizzaCS1 in universe phoneCS1
+234    at (105.0,735.0) speed (-12.0,11.0) with 0 rewards and 0 points
+235jaguar of chairCS1 in universe phoneCS1
+236    at (129.3,778.0) speed (-18.3,22.0) with 0 rewards and 0 points
+237
+238gazorpazorpfield passed through a portal at simulation step 36
+239gazorpazorpfield of pizzaCS1 in universe phoneCS1
+240    at (225.0,625.0) speed (10.0,12.0) with 1 rewards and 10 points
+241
+242tammy stopped at simulation step 37 at location (522.0,-8.0)
+243
+244jaguar picked up "submitty supermatch: submitty apologizes for not matching your output" at simulation step 37
+245jaguar of chairCS1 in universe phoneCS1
+246    at (74.3,844.0) speed (-15.3,22.0) with 1 rewards and 40 points
+247
+248gazorpazorpfield and mr. meeseeks crashed at simulation step 37 in universe phoneCS1
+249gazorpazorpfield dropped "improving programming ability by watching netflix", reward returned to pizzaCS1 at (569,573)
+250gazorpazorpfield of pizzaCS1 in universe phoneCS1
+251    at (235.0,637.0) speed (-10.0,-12.0) with 0 rewards and 0 points
+252mr. meeseeks of phoneCS1 in universe phoneCS1
+253    at (238.0,662.0) speed (-18.0,16.0) with 0 rewards and 0 points
+254
+255beth picked up "achievement unlocked: ready for data structures" at simulation step 38
+256beth of rickandmortyCS1 in universe rickandmortyCS1
+257    at (315.0,315.0) speed (-12.5,-15.0) with 1 rewards and 100 points
+258
+259zeep xanflorp and unity crashed at simulation step 38 in universe chairCS1
+260unity dropped "your program becomes a test case for all other programs", reward returned to chairCS1 at (42,572)
+261zeep xanflorp of chairCS1 in universe chairCS1
+262    at (179.0,458.0) speed (-13.0,-13.0) with 0 rewards and 0 points
+263unity of chairCS1 in universe chairCS1
+264    at (154.0,444.0) speed (-0.0,-0.0) with 1 rewards and 10 points
+265
+266rick and beth crashed at simulation step 38 in universe rickandmortyCS1
+267rick dropped "Prof. Turner's beard", reward returned to rickandmortyCS1 at (280,262)
+268beth dropped "achievement unlocked: ready for data structures", reward returned to rickandmortyCS1 at (300,300)
+269rick of rickandmortyCS1 in universe rickandmortyCS1
+270    at (280.6,282.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+271beth of rickandmortyCS1 in universe rickandmortyCS1
+272    at (315.0,315.0) speed (12.5,15.0) with 0 rewards and 0 points
+273
+274jerry stopped at simulation step 39 at location (74.0,0.0)
+275
+276mr. meeseeks picked up "everything you say is suddenly a Python program" at simulation step 39
+277mr. meeseeks of phoneCS1 in universe phoneCS1
+278    at (202.0,694.0) speed (-15.0,16.0) with 1 rewards and 20 points
+279
+280rick picked up "Prof. Turner's beard" at simulation step 39
+281rick of rickandmortyCS1 in universe rickandmortyCS1
+282    at (280.6,282.0) speed (0.0,0.0) with 1 rewards and 10 points
+283
+284zeep xanflorp and unity crashed at simulation step 39 in universe chairCS1
+285unity dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+286zeep xanflorp of chairCS1 in universe chairCS1
+287    at (166.0,445.0) speed (-13.0,-13.0) with 0 rewards and 0 points
+288unity of chairCS1 in universe chairCS1
+289    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+290
+291jaguar passed through a portal at simulation step 39
+292jaguar of chairCS1 in universe pizzaCS1
+293    at (335.0,828.0) speed (-15.3,22.0) with 1 rewards and 40 points
+294
+295zeep xanflorp picked up "ability to match any submitty output" at simulation step 40
+296zeep xanflorp of chairCS1 in universe chairCS1
+297    at (153.0,432.0) speed (-10.8,-13.0) with 1 rewards and 10 points
+298
+299zeep xanflorp and unity crashed at simulation step 40 in universe chairCS1
+300zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+301zeep xanflorp of chairCS1 in universe chairCS1
+302    at (153.0,432.0) speed (10.8,13.0) with 0 rewards and 0 points
+303unity of chairCS1 in universe chairCS1
+304    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+305
+306jaguar picked up "brain dump of stackoverflow" at simulation step 41
+307jaguar of chairCS1 in universe pizzaCS1
+308    at (304.4,872.0) speed (-15.3,14.7) with 2 rewards and 80 points
+309
+310zeep xanflorp picked up "ability to match any submitty output" at simulation step 41
+311zeep xanflorp of chairCS1 in universe chairCS1
+312    at (163.8,445.0) speed (9.0,13.0) with 1 rewards and 10 points
+313
+314zeep xanflorp stopped at simulation step 41 at location (163.8,445.0)
+315
+316zeep xanflorp and unity crashed at simulation step 41 in universe chairCS1
+317zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+318zeep xanflorp of chairCS1 in universe chairCS1
+319    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+320unity of chairCS1 in universe chairCS1
+321    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+322
+323zeep xanflorp picked up "ability to match any submitty output" at simulation step 42
+324zeep xanflorp of chairCS1 in universe chairCS1
+325    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+326
+327zeep xanflorp and unity crashed at simulation step 42 in universe chairCS1
+328zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+329zeep xanflorp of chairCS1 in universe chairCS1
+330    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+331unity of chairCS1 in universe chairCS1
+332    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+333
+334squanchy stopped at simulation step 43 at location (-3.0,834.0)
+335
+336zeep xanflorp picked up "ability to match any submitty output" at simulation step 43
+337zeep xanflorp of chairCS1 in universe chairCS1
+338    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+339
+340zeep xanflorp and unity crashed at simulation step 43 in universe chairCS1
+341zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+342zeep xanflorp of chairCS1 in universe chairCS1
+343    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+344unity of chairCS1 in universe chairCS1
+345    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+346
+347zeep xanflorp picked up "ability to match any submitty output" at simulation step 44
+348zeep xanflorp of chairCS1 in universe chairCS1
+349    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+350
+351zeep xanflorp and unity crashed at simulation step 44 in universe chairCS1
+352zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+353zeep xanflorp of chairCS1 in universe chairCS1
+354    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+355unity of chairCS1 in universe chairCS1
+356    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+357
+358jaguar passed through a portal at simulation step 44
+359jaguar of chairCS1 in universe chairCS1
+360    at (900.0,40.0) speed (-15.3,14.7) with 2 rewards and 80 points
+361
+362zeep xanflorp picked up "ability to match any submitty output" at simulation step 45
+363zeep xanflorp of chairCS1 in universe chairCS1
+364    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+365
+366zeep xanflorp and unity crashed at simulation step 45 in universe chairCS1
+367zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+368zeep xanflorp of chairCS1 in universe chairCS1
+369    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+370unity of chairCS1 in universe chairCS1
+371    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+372
+373zeep xanflorp picked up "ability to match any submitty output" at simulation step 46
+374zeep xanflorp of chairCS1 in universe chairCS1
+375    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+376
+377zeep xanflorp and unity crashed at simulation step 46 in universe chairCS1
+378zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+379zeep xanflorp of chairCS1 in universe chairCS1
+380    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+381unity of chairCS1 in universe chairCS1
+382    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+383
+384zeep xanflorp picked up "ability to match any submitty output" at simulation step 47
+385zeep xanflorp of chairCS1 in universe chairCS1
+386    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+387
+388zeep xanflorp and unity crashed at simulation step 47 in universe chairCS1
+389zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+390zeep xanflorp of chairCS1 in universe chairCS1
+391    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+392unity of chairCS1 in universe chairCS1
+393    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+394
+395zeep xanflorp picked up "ability to match any submitty output" at simulation step 48
+396zeep xanflorp of chairCS1 in universe chairCS1
+397    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+398
+399zeep xanflorp and unity crashed at simulation step 48 in universe chairCS1
+400zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+401zeep xanflorp of chairCS1 in universe chairCS1
+402    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+403unity of chairCS1 in universe chairCS1
+404    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+405
+406zeep xanflorp picked up "ability to match any submitty output" at simulation step 49
+407zeep xanflorp of chairCS1 in universe chairCS1
+408    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+409
+410zeep xanflorp and unity crashed at simulation step 49 in universe chairCS1
+411zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+412zeep xanflorp of chairCS1 in universe chairCS1
+413    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+414unity of chairCS1 in universe chairCS1
+415    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+416
+417zeep xanflorp picked up "ability to match any submitty output" at simulation step 50
+418zeep xanflorp of chairCS1 in universe chairCS1
+419    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+420
+421zeep xanflorp and unity crashed at simulation step 50 in universe chairCS1
+422zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+423zeep xanflorp of chairCS1 in universe chairCS1
+424    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+425unity of chairCS1 in universe chairCS1
+426    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+427
+428zeep xanflorp picked up "ability to match any submitty output" at simulation step 51
+429zeep xanflorp of chairCS1 in universe chairCS1
+430    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+431
+432zeep xanflorp and unity crashed at simulation step 51 in universe chairCS1
+433zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+434zeep xanflorp of chairCS1 in universe chairCS1
+435    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+436unity of chairCS1 in universe chairCS1
+437    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+438
+439mr. meeseeks passed through a portal at simulation step 51
+440mr. meeseeks of phoneCS1 in universe pizzaCS1
+441    at (335.0,828.0) speed (-15.0,16.0) with 1 rewards and 20 points
+442
+443beth passed through a portal at simulation step 51
+444beth of rickandmortyCS1 in universe rickandmortyCS1
+445    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+446
+447zeep xanflorp picked up "ability to match any submitty output" at simulation step 52
+448zeep xanflorp of chairCS1 in universe chairCS1
+449    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+450
+451zeep xanflorp and unity crashed at simulation step 52 in universe chairCS1
+452zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+453zeep xanflorp of chairCS1 in universe chairCS1
+454    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+455unity of chairCS1 in universe chairCS1
+456    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+457
+458zeep xanflorp picked up "ability to match any submitty output" at simulation step 53
+459zeep xanflorp of chairCS1 in universe chairCS1
+460    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+461
+462zeep xanflorp and unity crashed at simulation step 53 in universe chairCS1
+463zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+464zeep xanflorp of chairCS1 in universe chairCS1
+465    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+466unity of chairCS1 in universe chairCS1
+467    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+468
+469supernove stopped at simulation step 54 at location (1012.0,1007.0)
+470
+471zeep xanflorp picked up "ability to match any submitty output" at simulation step 54
+472zeep xanflorp of chairCS1 in universe chairCS1
+473    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+474
+475zeep xanflorp and unity crashed at simulation step 54 in universe chairCS1
+476zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+477zeep xanflorp of chairCS1 in universe chairCS1
+478    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+479unity of chairCS1 in universe chairCS1
+480    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+481
+482beth passed through a portal at simulation step 54
+483beth of rickandmortyCS1 in universe rickandmortyCS1
+484    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+485
+486zeep xanflorp picked up "ability to match any submitty output" at simulation step 55
+487zeep xanflorp of chairCS1 in universe chairCS1
+488    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+489
+490zeep xanflorp and unity crashed at simulation step 55 in universe chairCS1
+491zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+492zeep xanflorp of chairCS1 in universe chairCS1
+493    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+494unity of chairCS1 in universe chairCS1
+495    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+496
+497zeep xanflorp picked up "ability to match any submitty output" at simulation step 56
+498zeep xanflorp of chairCS1 in universe chairCS1
+499    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+500
+501zeep xanflorp and unity crashed at simulation step 56 in universe chairCS1
+502zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+503zeep xanflorp of chairCS1 in universe chairCS1
+504    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+505unity of chairCS1 in universe chairCS1
+506    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+507
+508mr. meeseeks passed through a portal at simulation step 56
+509mr. meeseeks of phoneCS1 in universe chairCS1
+510    at (900.0,40.0) speed (-15.0,16.0) with 1 rewards and 20 points
+511
+512zeep xanflorp picked up "ability to match any submitty output" at simulation step 57
+513zeep xanflorp of chairCS1 in universe chairCS1
+514    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+515
+516zeep xanflorp and unity crashed at simulation step 57 in universe chairCS1
+517zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+518zeep xanflorp of chairCS1 in universe chairCS1
+519    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+520unity of chairCS1 in universe chairCS1
+521    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+522
+523beth passed through a portal at simulation step 57
+524beth of rickandmortyCS1 in universe rickandmortyCS1
+525    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+526
+527piece of toast picked up "recursion vortex: ability to solve all homeworks using recursion" at simulation step 58
+528piece of toast of pizzaCS1 in universe pizzaCS1
+529    at (30.0,242.0) speed (-11.7,-13.0) with 1 rewards and 8 points
+530
+531zeep xanflorp picked up "ability to match any submitty output" at simulation step 58
+532zeep xanflorp of chairCS1 in universe chairCS1
+533    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+534
+535zeep xanflorp and unity crashed at simulation step 58 in universe chairCS1
+536zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+537zeep xanflorp of chairCS1 in universe chairCS1
+538    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+539unity of chairCS1 in universe chairCS1
+540    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+541
+542zeep xanflorp picked up "ability to match any submitty output" at simulation step 59
+543zeep xanflorp of chairCS1 in universe chairCS1
+544    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+545
+546zeep xanflorp and unity crashed at simulation step 59 in universe chairCS1
+547zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+548zeep xanflorp of chairCS1 in universe chairCS1
+549    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+550unity of chairCS1 in universe chairCS1
+551    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+552
+553zeep xanflorp picked up "ability to match any submitty output" at simulation step 60
+554zeep xanflorp of chairCS1 in universe chairCS1
+555    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+556
+557zeep xanflorp and unity crashed at simulation step 60 in universe chairCS1
+558zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+559zeep xanflorp of chairCS1 in universe chairCS1
+560    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+561unity of chairCS1 in universe chairCS1
+562    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+563
+564beth passed through a portal at simulation step 60
+565beth of rickandmortyCS1 in universe rickandmortyCS1
+566    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+567
+568gazorpazorpfield stopped at simulation step 61 at location (-5.0,349.0)
+569
+570piece of toast stopped at simulation step 61 at location (-5.0,203.0)
+571
+572zeep xanflorp picked up "ability to match any submitty output" at simulation step 61
+573zeep xanflorp of chairCS1 in universe chairCS1
+574    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+575
+576zeep xanflorp and unity crashed at simulation step 61 in universe chairCS1
+577zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+578zeep xanflorp of chairCS1 in universe chairCS1
+579    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+580unity of chairCS1 in universe chairCS1
+581    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+582
+583zeep xanflorp picked up "ability to match any submitty output" at simulation step 62
+584zeep xanflorp of chairCS1 in universe chairCS1
+585    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+586
+587zeep xanflorp and unity crashed at simulation step 62 in universe chairCS1
+588zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+589zeep xanflorp of chairCS1 in universe chairCS1
+590    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+591unity of chairCS1 in universe chairCS1
+592    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+593
+594zeep xanflorp picked up "ability to match any submitty output" at simulation step 63
+595zeep xanflorp of chairCS1 in universe chairCS1
+596    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+597
+598zeep xanflorp and unity crashed at simulation step 63 in universe chairCS1
+599zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+600zeep xanflorp of chairCS1 in universe chairCS1
+601    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+602unity of chairCS1 in universe chairCS1
+603    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+604
+605beth passed through a portal at simulation step 63
+606beth of rickandmortyCS1 in universe rickandmortyCS1
+607    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+608
+609zeep xanflorp picked up "ability to match any submitty output" at simulation step 64
+610zeep xanflorp of chairCS1 in universe chairCS1
+611    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+612
+613zeep xanflorp and unity crashed at simulation step 64 in universe chairCS1
+614zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+615zeep xanflorp of chairCS1 in universe chairCS1
+616    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+617unity of chairCS1 in universe chairCS1
+618    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+619
+620zeep xanflorp picked up "ability to match any submitty output" at simulation step 65
+621zeep xanflorp of chairCS1 in universe chairCS1
+622    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+623
+624zeep xanflorp and unity crashed at simulation step 65 in universe chairCS1
+625zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+626zeep xanflorp of chairCS1 in universe chairCS1
+627    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+628unity of chairCS1 in universe chairCS1
+629    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+630
+631zeep xanflorp picked up "ability to match any submitty output" at simulation step 66
+632zeep xanflorp of chairCS1 in universe chairCS1
+633    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+634
+635zeep xanflorp and unity crashed at simulation step 66 in universe chairCS1
+636zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+637zeep xanflorp of chairCS1 in universe chairCS1
+638    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+639unity of chairCS1 in universe chairCS1
+640    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+641
+642beth passed through a portal at simulation step 66
+643beth of rickandmortyCS1 in universe rickandmortyCS1
+644    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+645
+646zeep xanflorp picked up "ability to match any submitty output" at simulation step 67
+647zeep xanflorp of chairCS1 in universe chairCS1
+648    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+649
+650zeep xanflorp and unity crashed at simulation step 67 in universe chairCS1
+651zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+652zeep xanflorp of chairCS1 in universe chairCS1
+653    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+654unity of chairCS1 in universe chairCS1
+655    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+656
+657zeep xanflorp picked up "ability to match any submitty output" at simulation step 68
+658zeep xanflorp of chairCS1 in universe chairCS1
+659    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+660
+661zeep xanflorp and unity crashed at simulation step 68 in universe chairCS1
+662zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+663zeep xanflorp of chairCS1 in universe chairCS1
+664    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+665unity of chairCS1 in universe chairCS1
+666    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+667
+668zeep xanflorp picked up "ability to match any submitty output" at simulation step 69
+669zeep xanflorp of chairCS1 in universe chairCS1
+670    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+671
+672zeep xanflorp and unity crashed at simulation step 69 in universe chairCS1
+673zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+674zeep xanflorp of chairCS1 in universe chairCS1
+675    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+676unity of chairCS1 in universe chairCS1
+677    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+678
+679beth passed through a portal at simulation step 69
+680beth of rickandmortyCS1 in universe rickandmortyCS1
+681    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+682
+683zeep xanflorp picked up "ability to match any submitty output" at simulation step 70
+684zeep xanflorp of chairCS1 in universe chairCS1
+685    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+686
+687zeep xanflorp and unity crashed at simulation step 70 in universe chairCS1
+688zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+689zeep xanflorp of chairCS1 in universe chairCS1
+690    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+691unity of chairCS1 in universe chairCS1
+692    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+693
+694zeep xanflorp picked up "ability to match any submitty output" at simulation step 71
+695zeep xanflorp of chairCS1 in universe chairCS1
+696    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+697
+698zeep xanflorp and unity crashed at simulation step 71 in universe chairCS1
+699zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+700zeep xanflorp of chairCS1 in universe chairCS1
+701    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+702unity of chairCS1 in universe chairCS1
+703    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+704
+705zeep xanflorp picked up "ability to match any submitty output" at simulation step 72
+706zeep xanflorp of chairCS1 in universe chairCS1
+707    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+708
+709zeep xanflorp and unity crashed at simulation step 72 in universe chairCS1
+710zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+711zeep xanflorp of chairCS1 in universe chairCS1
+712    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+713unity of chairCS1 in universe chairCS1
+714    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+715
+716beth passed through a portal at simulation step 72
+717beth of rickandmortyCS1 in universe rickandmortyCS1
+718    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+719
+720zeep xanflorp picked up "ability to match any submitty output" at simulation step 73
+721zeep xanflorp of chairCS1 in universe chairCS1
+722    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+723
+724zeep xanflorp and unity crashed at simulation step 73 in universe chairCS1
+725zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+726zeep xanflorp of chairCS1 in universe chairCS1
+727    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+728unity of chairCS1 in universe chairCS1
+729    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+730
+731zeep xanflorp picked up "ability to match any submitty output" at simulation step 74
+732zeep xanflorp of chairCS1 in universe chairCS1
+733    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+734
+735zeep xanflorp and unity crashed at simulation step 74 in universe chairCS1
+736zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+737zeep xanflorp of chairCS1 in universe chairCS1
+738    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+739unity of chairCS1 in universe chairCS1
+740    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+741
+742zeep xanflorp picked up "ability to match any submitty output" at simulation step 75
+743zeep xanflorp of chairCS1 in universe chairCS1
+744    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+745
+746zeep xanflorp and unity crashed at simulation step 75 in universe chairCS1
+747zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+748zeep xanflorp of chairCS1 in universe chairCS1
+749    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+750unity of chairCS1 in universe chairCS1
+751    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+752
+753beth passed through a portal at simulation step 75
+754beth of rickandmortyCS1 in universe rickandmortyCS1
+755    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+756
+757zeep xanflorp picked up "ability to match any submitty output" at simulation step 76
+758zeep xanflorp of chairCS1 in universe chairCS1
+759    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+760
+761zeep xanflorp and unity crashed at simulation step 76 in universe chairCS1
+762zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+763zeep xanflorp of chairCS1 in universe chairCS1
+764    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+765unity of chairCS1 in universe chairCS1
+766    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+767
+768zeep xanflorp picked up "ability to match any submitty output" at simulation step 77
+769zeep xanflorp of chairCS1 in universe chairCS1
+770    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+771
+772zeep xanflorp and unity crashed at simulation step 77 in universe chairCS1
+773zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+774zeep xanflorp of chairCS1 in universe chairCS1
+775    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+776unity of chairCS1 in universe chairCS1
+777    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+778
+779zeep xanflorp picked up "ability to match any submitty output" at simulation step 78
+780zeep xanflorp of chairCS1 in universe chairCS1
+781    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+782
+783zeep xanflorp and unity crashed at simulation step 78 in universe chairCS1
+784zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+785zeep xanflorp of chairCS1 in universe chairCS1
+786    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+787unity of chairCS1 in universe chairCS1
+788    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+789
+790beth passed through a portal at simulation step 78
+791beth of rickandmortyCS1 in universe rickandmortyCS1
+792    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+793
+794zeep xanflorp picked up "ability to match any submitty output" at simulation step 79
+795zeep xanflorp of chairCS1 in universe chairCS1
+796    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+797
+798zeep xanflorp and unity crashed at simulation step 79 in universe chairCS1
+799zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+800zeep xanflorp of chairCS1 in universe chairCS1
+801    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+802unity of chairCS1 in universe chairCS1
+803    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+804
+805zeep xanflorp picked up "ability to match any submitty output" at simulation step 80
+806zeep xanflorp of chairCS1 in universe chairCS1
+807    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+808
+809zeep xanflorp and unity crashed at simulation step 80 in universe chairCS1
+810zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+811zeep xanflorp of chairCS1 in universe chairCS1
+812    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+813unity of chairCS1 in universe chairCS1
+814    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+815
+816zeep xanflorp picked up "ability to match any submitty output" at simulation step 81
+817zeep xanflorp of chairCS1 in universe chairCS1
+818    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+819
+820zeep xanflorp and unity crashed at simulation step 81 in universe chairCS1
+821zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+822zeep xanflorp of chairCS1 in universe chairCS1
+823    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+824unity of chairCS1 in universe chairCS1
+825    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+826
+827beth passed through a portal at simulation step 81
+828beth of rickandmortyCS1 in universe rickandmortyCS1
+829    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+830
+831zeep xanflorp picked up "ability to match any submitty output" at simulation step 82
+832zeep xanflorp of chairCS1 in universe chairCS1
+833    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+834
+835zeep xanflorp and unity crashed at simulation step 82 in universe chairCS1
+836zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+837zeep xanflorp of chairCS1 in universe chairCS1
+838    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+839unity of chairCS1 in universe chairCS1
+840    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+841
+842zeep xanflorp picked up "ability to match any submitty output" at simulation step 83
+843zeep xanflorp of chairCS1 in universe chairCS1
+844    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+845
+846zeep xanflorp and unity crashed at simulation step 83 in universe chairCS1
+847zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+848zeep xanflorp of chairCS1 in universe chairCS1
+849    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+850unity of chairCS1 in universe chairCS1
+851    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+852
+853zeep xanflorp picked up "ability to match any submitty output" at simulation step 84
+854zeep xanflorp of chairCS1 in universe chairCS1
+855    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+856
+857zeep xanflorp and unity crashed at simulation step 84 in universe chairCS1
+858zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+859zeep xanflorp of chairCS1 in universe chairCS1
+860    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+861unity of chairCS1 in universe chairCS1
+862    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+863
+864beth passed through a portal at simulation step 84
+865beth of rickandmortyCS1 in universe rickandmortyCS1
+866    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+867
+868zeep xanflorp picked up "ability to match any submitty output" at simulation step 85
+869zeep xanflorp of chairCS1 in universe chairCS1
+870    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+871
+872zeep xanflorp and unity crashed at simulation step 85 in universe chairCS1
+873zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+874zeep xanflorp of chairCS1 in universe chairCS1
+875    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+876unity of chairCS1 in universe chairCS1
+877    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+878
+879zeep xanflorp picked up "ability to match any submitty output" at simulation step 86
+880zeep xanflorp of chairCS1 in universe chairCS1
+881    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+882
+883zeep xanflorp and unity crashed at simulation step 86 in universe chairCS1
+884zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+885zeep xanflorp of chairCS1 in universe chairCS1
+886    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+887unity of chairCS1 in universe chairCS1
+888    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+889
+890zeep xanflorp picked up "ability to match any submitty output" at simulation step 87
+891zeep xanflorp of chairCS1 in universe chairCS1
+892    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+893
+894zeep xanflorp and unity crashed at simulation step 87 in universe chairCS1
+895zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+896zeep xanflorp of chairCS1 in universe chairCS1
+897    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+898unity of chairCS1 in universe chairCS1
+899    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+900
+901beth passed through a portal at simulation step 87
+902beth of rickandmortyCS1 in universe rickandmortyCS1
+903    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+904
+905zeep xanflorp picked up "ability to match any submitty output" at simulation step 88
+906zeep xanflorp of chairCS1 in universe chairCS1
+907    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+908
+909zeep xanflorp and unity crashed at simulation step 88 in universe chairCS1
+910zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+911zeep xanflorp of chairCS1 in universe chairCS1
+912    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+913unity of chairCS1 in universe chairCS1
+914    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+915
+916zeep xanflorp picked up "ability to match any submitty output" at simulation step 89
+917zeep xanflorp of chairCS1 in universe chairCS1
+918    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+919
+920zeep xanflorp and unity crashed at simulation step 89 in universe chairCS1
+921zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+922zeep xanflorp of chairCS1 in universe chairCS1
+923    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+924unity of chairCS1 in universe chairCS1
+925    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+926
+927zeep xanflorp picked up "ability to match any submitty output" at simulation step 90
+928zeep xanflorp of chairCS1 in universe chairCS1
+929    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+930
+931zeep xanflorp and unity crashed at simulation step 90 in universe chairCS1
+932zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+933zeep xanflorp of chairCS1 in universe chairCS1
+934    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+935unity of chairCS1 in universe chairCS1
+936    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+937
+938beth passed through a portal at simulation step 90
+939beth of rickandmortyCS1 in universe rickandmortyCS1
+940    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+941
+942zeep xanflorp picked up "ability to match any submitty output" at simulation step 91
+943zeep xanflorp of chairCS1 in universe chairCS1
+944    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+945
+946zeep xanflorp and unity crashed at simulation step 91 in universe chairCS1
+947zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+948zeep xanflorp of chairCS1 in universe chairCS1
+949    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+950unity of chairCS1 in universe chairCS1
+951    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+952
+953zeep xanflorp picked up "ability to match any submitty output" at simulation step 92
+954zeep xanflorp of chairCS1 in universe chairCS1
+955    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+956
+957zeep xanflorp and unity crashed at simulation step 92 in universe chairCS1
+958zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+959zeep xanflorp of chairCS1 in universe chairCS1
+960    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+961unity of chairCS1 in universe chairCS1
+962    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+963
+964zeep xanflorp picked up "ability to match any submitty output" at simulation step 93
+965zeep xanflorp of chairCS1 in universe chairCS1
+966    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+967
+968zeep xanflorp and unity crashed at simulation step 93 in universe chairCS1
+969zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+970zeep xanflorp of chairCS1 in universe chairCS1
+971    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+972unity of chairCS1 in universe chairCS1
+973    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+974
+975beth passed through a portal at simulation step 93
+976beth of rickandmortyCS1 in universe rickandmortyCS1
+977    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+978
+979zeep xanflorp picked up "ability to match any submitty output" at simulation step 94
+980zeep xanflorp of chairCS1 in universe chairCS1
+981    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+982
+983zeep xanflorp and unity crashed at simulation step 94 in universe chairCS1
+984zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+985zeep xanflorp of chairCS1 in universe chairCS1
+986    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+987unity of chairCS1 in universe chairCS1
+988    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+989
+990zeep xanflorp picked up "ability to match any submitty output" at simulation step 95
+991zeep xanflorp of chairCS1 in universe chairCS1
+992    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+993
+994zeep xanflorp and unity crashed at simulation step 95 in universe chairCS1
+995zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+996zeep xanflorp of chairCS1 in universe chairCS1
+997    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+998unity of chairCS1 in universe chairCS1
+999    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+1000
+1001zeep xanflorp picked up "ability to match any submitty output" at simulation step 96
+1002zeep xanflorp of chairCS1 in universe chairCS1
+1003    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+1004
+1005zeep xanflorp and unity crashed at simulation step 96 in universe chairCS1
+1006zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+1007zeep xanflorp of chairCS1 in universe chairCS1
+1008    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+1009unity of chairCS1 in universe chairCS1
+1010    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+1011
+1012beth passed through a portal at simulation step 96
+1013beth of rickandmortyCS1 in universe rickandmortyCS1
+1014    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+1015
+1016zeep xanflorp picked up "ability to match any submitty output" at simulation step 97
+1017zeep xanflorp of chairCS1 in universe chairCS1
+1018    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+1019
+1020zeep xanflorp and unity crashed at simulation step 97 in universe chairCS1
+1021zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+1022zeep xanflorp of chairCS1 in universe chairCS1
+1023    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+1024unity of chairCS1 in universe chairCS1
+1025    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+1026
+1027zeep xanflorp picked up "ability to match any submitty output" at simulation step 98
+1028zeep xanflorp of chairCS1 in universe chairCS1
+1029    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+1030
+1031zeep xanflorp and unity crashed at simulation step 98 in universe chairCS1
+1032zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+1033zeep xanflorp of chairCS1 in universe chairCS1
+1034    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+1035unity of chairCS1 in universe chairCS1
+1036    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+1037
+1038zeep xanflorp picked up "ability to match any submitty output" at simulation step 99
+1039zeep xanflorp of chairCS1 in universe chairCS1
+1040    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+1041
+1042zeep xanflorp and unity crashed at simulation step 99 in universe chairCS1
+1043zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+1044zeep xanflorp of chairCS1 in universe chairCS1
+1045    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+1046unity of chairCS1 in universe chairCS1
+1047    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+1048
+1049beth passed through a portal at simulation step 99
+1050beth of rickandmortyCS1 in universe rickandmortyCS1
+1051    at (450.0,450.0) speed (12.5,15.0) with 0 rewards and 0 points
+1052
+1053zeep xanflorp picked up "ability to match any submitty output" at simulation step 100
+1054zeep xanflorp of chairCS1 in universe chairCS1
+1055    at (163.8,445.0) speed (0.0,0.0) with 1 rewards and 10 points
+1056
+1057zeep xanflorp and unity crashed at simulation step 100 in universe chairCS1
+1058zeep xanflorp dropped "ability to match any submitty output", reward returned to chairCS1 at (152,446)
+1059zeep xanflorp of chairCS1 in universe chairCS1
+1060    at (163.8,445.0) speed (-0.0,-0.0) with 0 rewards and 0 points
+1061unity of chairCS1 in universe chairCS1
+1062    at (154.0,444.0) speed (0.0,0.0) with 0 rewards and 0 points
+1063
+1064
+1065----------------------------------------
+1066Simulation stopped at step 100
+10673 individuals still moving: jaguar
+1068mr. meeseeks
+1069beth
+1070
+1071Winners:
+1072jaguar of chairCS1 in universe chairCS1
+1073    at (44.4,861.3) speed (-15.3,14.7) with 2 rewards and 80 points
+1074Rewards:
+1075    submitty supermatch: submitty apologizes for not matching your output
+1076    brain dump of stackoverflow
+1077
