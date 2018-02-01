@@ -16,3 +16,4 @@ time=(more_miles*5280*12)/moon_move
 print("The Moon will have exactly the same apparent size as the Sun when it is {:.2f} miles away.".format(moon2eath_sun_size))
 print("The Moon will need to recede another {:.2f} miles".format(more_miles))
 print("Which will occur in {:.0f} years at the current rate.".format(time))
+print("hi mom, im on github")
